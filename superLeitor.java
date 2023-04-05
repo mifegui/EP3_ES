@@ -6,17 +6,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
-/*
- *programa:  'inicio:' ... 'fim.'
- *intrução: ';'
- *identificador: 'X' , 'Y' , 'W'
- *operador: 'n' 'e' 'o' 'x' 'copia'
- */
+
 public class superLeitor {
 
-  /*
-   *
-   */
   static String superX = "";
   static String superY = "";
   static Path path = Paths.get("./testeula.hex"); //seleciona o local que sera escrito
